@@ -15,6 +15,8 @@
             <img id="mobile-cta" class="mobile-menu" src="./assets/menu.svg" alt="Open navigation">
             
             <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="./assets/exit.svg" alt="Close navigation">
+
                 <ul class="primary-nav">
                     <li class="current"><a href="#">Home</a></li>
                     <li><a href="#">Features</a></li>
@@ -24,12 +26,87 @@
                 <ul class="secondary-nav">
                     <li><a href="#">Contact</a></li>
                     <li class="go-premium-cta"><a href="#">Go Premium</a></li>
-                    <li><a href="#">Pricing</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
-    <h1>Hello, HTML & CSS!</h1>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="sub-head">What Really Matters &amp; Why</p>
+                <h1>Hello, HTML & CSS Is Where You Begin!</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="./assets/watch.svg" alt="Watch a video">Watch a video
+                    </a>
+                </div>
+            </div>
+
+            <img src="./assets/illustration.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <ul>
+                <li>Unlimited tasks</li>
+                <li>O baby what a fruity pipe</li>
+                <li>Put some pressure on it</li>
+                <li>Tora tora tora tora tora</li>
+                <li>Who goes there? Show yourself!</li>
+                <li>I ain't kidding neither!</li>
+            </ul>
+
+            <img src="./assets/street.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./assets/person.jpeg" alt="Person">
+                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero officia, labore voluptatem, sint fugit expedita minima ipsum cupiditate similique itaque quaerat et impedit saepe quibusdam iusto reprehenderit sunt modi neque."</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="./assets/person.jpeg" alt="Person">
+                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero officia, labore voluptatem, sint fugit expedita minima ipsum cupiditate similique itaque quaerat et impedit saepe quibusdam iusto reprehenderit sunt modi neque."</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="./assets/person.jpeg" alt="Person">
+                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero officia, labore voluptatem, sint fugit expedita minima ipsum cupiditate similique itaque quaerat et impedit saepe quibusdam iusto reprehenderit sunt modi neque."</blockquote>
+                    <cite>- John Doe</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name ...">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write something ..."></textarea>
+
+                    <input type="submit" class="send-message-cta" value="Send message">
+
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39397.694932148406!2d-149.8239303366411!3d61.13042943817564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c8917604b33f41%3A0x257dba5aa78468e3!2sAnchorage%2C%20AK%2C%20USA!5e0!3m2!1sen!2sca!4v1623875164270!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
